@@ -10,6 +10,10 @@ Since 1992, Samba has provided secure, stable and fast file and print services
 for all clients using the SMB/CIFS protocol, such as all versions of DOS and
 Windows, OS/2, Linux and many others.
 
+# How to build this image
+
+`docker build . -t coconano/samba`
+
 # How to use this image
 
 By default there are no shares configured, additional ones can be added.
